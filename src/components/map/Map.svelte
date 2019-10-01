@@ -1,8 +1,7 @@
 <script>
 	import { onMount, setContext } from 'svelte'
+	import key from '../../mapbox-context-key.js'
 		
-	const key = {};
-	
 	setContext(key, {
 		getMap: () => map
 	});
@@ -27,7 +26,6 @@
 
 
 		link.onload = () => {
-			console.log(lon,lat,zoom)
 			map = new mapbox.Map({
 				container,
 				style: 'mapbox://styles/mapbox/streets-v9',

@@ -9,6 +9,7 @@
 <h1>Hola</h1>	
 
 <Map lat={19} lon={-99} zoom={8}>
+	<MapPoligon />
 	<MapMarker lat={19.8981} lon={-99.4169} label="Svelte Barbershop & Essentials"/>
 	<!-- <MapMarker lat={19.7230} lon={-99.4189} label="Svelte Waxing Studio"/>
 	<MapMarker lat={19.3378} lon={-99.3966} label="Svelte 30 Nutritional Consultants"/>
